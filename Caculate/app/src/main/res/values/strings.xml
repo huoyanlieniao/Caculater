@@ -12,8 +12,13 @@
 	<string name="button_9">9</string>
 	<string name="button_c">c</string>
 	<string name="button_except">/</string>
-	<string name="button_x">x</string>
+	<string name="button_Multiply">*</string>
 	<string name="button_node">.</string>
 	<string name="button_add">+</string>
 	<string name="button_sum">=</string>
+	<string name="button_subtraction">-</string>
+	<string name="button_percentage">%</string>
+	<string name="button_square">x^2</string>
+	<string name="button_rooting">^2</string>
+	<string name="button_fenzhi">1/x</string>
 </resources>

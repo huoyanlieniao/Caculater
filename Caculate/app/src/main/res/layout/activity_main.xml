@@ -2,7 +2,7 @@
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:rowCount="6"
+            android:rowCount="7"
             android:columnCount="4">
 	<TextView
 			android:id="@+id/Show"
@@ -19,19 +19,52 @@
 			android:layout_columnSpan="2"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
-
+	
 	<Button
-			android:id="@+id/Except"
+			android:id="@+id/Button_Percentage"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:text="@string/button_percentage"
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"/>
+	
+	<Button
+			android:id="@+id/button_Except"
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_except"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
+	
 	<Button
-			android:id="@+id/X"
+			android:id="@+id/button_Square"
 			android:layout_width="0dp"
 			android:layout_height="0dp"
-			android:text="@string/button_x"
+			android:text="@string/button_square"
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"/>
+	
+	<Button
+			android:id="@+id/button_Rooting"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:text="@string/button_rooting"
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"/>
+	
+	<Button
+			android:id="@+id/button_Fenzhi"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:text="@string/button_fenzhi"
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"/>
+	
+	<Button
+			android:id="@+id/Multiply"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:text="@string/button_Multiply"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	<Button
@@ -56,10 +89,10 @@
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	<Button
-			android:id="@+id/Button_-"
+			android:id="@+id/Button_Subtraction"
 			android:layout_width="0dp"
 			android:layout_height="0dp"
-			android:text="-"
+			android:text="@string/button_subtraction"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	<Button
