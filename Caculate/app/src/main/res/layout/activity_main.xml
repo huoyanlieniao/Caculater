@@ -10,7 +10,7 @@
 			android:layout_height="200dp"
 			android:layout_columnSpan="4"
 			android:hint="0"
-			android:gravity="bottom|right"/>
+			android:gravity="bottom|end"/>
 	<Button
 			android:id="@+id/Button_c"
 			android:layout_width="0dp"
@@ -128,7 +128,7 @@
 			android:layout_columnSpan="2"
 			android:layout_rowWeight="1"/>
 	<Button
-			android:id="@+id/Button_."
+			android:id="@+id/Button_Point"
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_node"
