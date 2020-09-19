@@ -21,4 +21,6 @@
 	<string name="button_square">x^2</string>
 	<string name="button_rooting">^2</string>
 	<string name="button_fenzhi">1/x</string>
+	<string name="Button_Left_Brackets">(</string>
+	<string name="Button_Right_Brackets">)</string>
 </resources>
