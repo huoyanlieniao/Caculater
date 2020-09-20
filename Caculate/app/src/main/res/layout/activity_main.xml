@@ -6,6 +6,7 @@
             android:columnCount="4">
 	<TextView
 			android:id="@+id/Show"
+			android:textSize="30dp"
 			android:layout_width="match_parent"
 			android:layout_height="200dp"
 			android:layout_columnSpan="4"
@@ -16,6 +17,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_c"
+			android:onClick="onClick_Symbol"
 			android:layout_columnSpan="2"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
@@ -25,6 +27,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_percentage"
+			android:onClick="onClick_Function"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	
@@ -33,6 +36,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_except"
+			android:onClick="onClick_Calculation"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	
@@ -41,6 +45,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/Button_Left_Brackets"
+			android:onClick="onClick_Symbol"
 			android:layout_columnSpan="2"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
@@ -50,6 +55,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/Button_Right_Brackets"
+			android:onClick="onClick_Symbol"
 			android:layout_columnSpan="2"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
@@ -59,6 +65,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_square"
+			android:onClick="onClick_Function"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	
@@ -67,6 +74,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_rooting"
+			android:onClick="onClick_Function"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	
@@ -75,6 +83,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_fenzhi"
+			android:onClick="onClick_Function"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	
@@ -83,6 +92,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_Multiply"
+			android:onClick="onClick_Calculation"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	<Button
@@ -90,6 +100,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_7"
+			android:onClick="onClick_Number"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	<Button
@@ -97,6 +108,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_8"
+			android:onClick="onClick_Number"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	<Button
@@ -104,6 +116,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_9"
+			android:onClick="onClick_Number"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	<Button
@@ -111,6 +124,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_subtraction"
+			android:onClick="onClick_Calculation"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	<Button
@@ -118,6 +132,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_4"
+			android:onClick="onClick_Number"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	<Button
@@ -125,6 +140,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_5"
+			android:onClick="onClick_Number"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	<Button
@@ -132,6 +148,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_6"
+			android:onClick="onClick_Number"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	<Button
@@ -139,6 +156,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_add"
+			android:onClick="onClick_Calculation"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	<Button
@@ -146,6 +164,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_1"
+			android:onClick="onClick_Number"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	<Button
@@ -153,6 +172,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_2"
+			android:onClick="onClick_Number"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	<Button
@@ -160,6 +180,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_3"
+			android:onClick="onClick_Number"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	<Button
@@ -167,6 +188,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_sum"
+			android:onClick="onClick_Symbol"
 			android:layout_columnWeight="1"
 			android:layout_rowSpan="2"
 			android:layout_rowWeight="1"/>
@@ -175,6 +197,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/butoon_0"
+			android:onClick="onClick_Number"
 			android:layout_columnWeight="1"
 			android:layout_columnSpan="2"
 			android:layout_rowWeight="1"/>
@@ -183,6 +206,7 @@
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/button_node"
+			android:onClick="onClick_Symbol"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 
