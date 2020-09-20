@@ -25,7 +25,7 @@
 
 ###最终界面
 ![](Picture/Finish_Layout_Land.PNG)
-![](Picture/FinihL_ayout.PNG)
+![](Picture/Finish_Layout.PNG)
 
 
 #逻辑规则
