@@ -24,8 +24,8 @@
 - [x] 括号
 
 ###最终界面
-![](Picture/Finish_layout_Land.PNG)
-![](Picture/Finish_layout.PNG)
+![](Picture/Finish_Layout_Land.PNG)
+![](Picture/Finish_Layout.PNG)
 
 
 #逻辑规则
