@@ -5,10 +5,19 @@
             android:rowCount="7"
             android:columnCount="4">
 	<TextView
-			android:id="@+id/Show"
+			android:id="@+id/Show_2"
 			android:textSize="30dp"
 			android:layout_width="match_parent"
-			android:layout_height="200dp"
+			android:layout_height="120dp"
+			android:scrollbars="vertical"
+			android:fadeScrollbars="false"
+			android:layout_columnSpan="4"
+			android:gravity="bottom|end"/>
+	<TextView
+			android:id="@+id/Show_1"
+			android:textSize="30dp"
+			android:layout_width="match_parent"
+			android:layout_height="80dp"
 			android:layout_columnSpan="4"
 			android:hint="0"
 			android:gravity="bottom|end"/>
@@ -18,7 +27,7 @@
 			android:layout_height="0dp"
 			android:text="@string/button_c"
 			android:onClick="onClick_Symbol"
-			android:layout_columnSpan="2"
+			android:layout_columnSpan="1"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	
@@ -41,12 +50,22 @@
 			android:layout_rowWeight="1"/>
 	
 	<Button
+			android:id="@+id/Button_Del"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:text="@string/button_del"
+			android:onClick="onClick_Symbol"
+			android:layout_columnSpan="1"
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"/>
+	
+	<Button
 			android:id="@+id/Button_Left_Brackets"
 			android:layout_width="0dp"
 			android:layout_height="0dp"
 			android:text="@string/Button_Left_Brackets"
 			android:onClick="onClick_Symbol"
-			android:layout_columnSpan="2"
+			android:layout_columnSpan="1"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
 	
@@ -56,9 +75,29 @@
 			android:layout_height="0dp"
 			android:text="@string/Button_Right_Brackets"
 			android:onClick="onClick_Symbol"
-			android:layout_columnSpan="2"
+			android:layout_columnSpan="1"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"/>
+	<Button
+			android:id="@+id/Button_Sin"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:text="@string/button_sin"
+			android:onClick="onClick_Function"
+			android:layout_columnSpan="1"
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"/>
+	
+	<Button
+			android:id="@+id/Button_Cos"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:text="@string/button_cos"
+			android:onClick="onClick_Function"
+			android:layout_columnSpan="1"
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"/>
+	
 	
 	<Button
 			android:id="@+id/button_Square"

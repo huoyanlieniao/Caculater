@@ -2,4 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
    <item android:title="Help" android:id="@+id/Help">
    </item>
+   <item android:title="长度转化" android:id="@+id/LongTra"/>
+   <item  android:title="进制转化" android:id="@+id/SchalTra"/>
+   <item  android:title="体积转化" android:id="@+id/SizeTra"/>
+   
 </menu>

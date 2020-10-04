@@ -11,6 +11,7 @@
 	<string name="button_8">8</string>
 	<string name="button_9">9</string>
 	<string name="button_c">c</string>
+	<string name="button_del">Del</string>
 	<string name="button_except">/</string>
 	<string name="button_Multiply">*</string>
 	<string name="button_node">.</string>
@@ -21,6 +22,10 @@
 	<string name="button_square">x^2</string>
 	<string name="button_rooting">^2</string>
 	<string name="button_fenzhi">1/x</string>
+	<string name="button_sin">Sin</string>
+	<string name="button_cos">Cos</string>
 	<string name="Button_Left_Brackets">(</string>
 	<string name="Button_Right_Brackets">)</string>
+	<string name="input">Input</string>
+	<string name="title_activity_long_activity">Long_activity</string>
 </resources>

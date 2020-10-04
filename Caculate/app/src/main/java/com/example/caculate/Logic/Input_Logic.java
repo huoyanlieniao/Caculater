@@ -3,7 +3,7 @@ package com.example.caculate.Logic;
 import android.icu.util.Output;
 import android.util.Log;
 import androidx.appcompat.widget.DialogTitle;
-import com.example.caculate.Model.Model;
+
 
 import java.util.Scanner;
 import java.util.concurrent.BrokenBarrierException;
@@ -25,7 +25,7 @@ public class Input_Logic {
     //运算符系列
 
     //不可连接
-    public static boolean Unconnect(String a,String b){
+    public  boolean Unconnect(String a,String b){
         if(a.equals("+")||a.equals("-")||a.equals("*")||a.equals("/")){
             if(b.equals("-")||b.equals("(")){
                 return true;
@@ -37,6 +37,17 @@ public class Input_Logic {
         return true;
     }
 
+    //计算系列
+    public double Calculate(String str,Double a,Double b){
+        Double c=0.0;
+        switch(str){
+          case "+": c=a+b;break;
+          case "-": c=a-b;break;
+          case "*": c=a*b;break;
+          case "/": c=a/b;break;
+      }
+      return c;
+    }
 
 
 
@@ -49,7 +60,7 @@ public class Input_Logic {
      * @Param [a]
      * @return boolean
      **/
-    public static boolean Except_behind(String a){
+    public  boolean Except_behind(String a){
         if(a.equals("0")){
             return false;
         }else{
@@ -61,6 +72,8 @@ public class Input_Logic {
 
 
     //点
+
+
     /**
      * @Author sun
      * @Description 点前面是数字
@@ -68,14 +81,16 @@ public class Input_Logic {
      * @Param
      * @return
     **/
-    public static boolean Point_front(String a){
+    /* //这个方法本次设计不使
+    用
+    public  boolean Point_front(String a){
         if (!Character.isDigit(a.charAt(0))){
                 return false;
         }
         else{
             return true;
         }
-    }
+    }*/
 
     /**
      * @Author sun
@@ -84,14 +99,15 @@ public class Input_Logic {
      * @Param
      * @return
     **/
-    public static boolean Point_behind(String a){
+   /* //这个方法本次设计不使用
+    public  boolean Point_behind(String a){
         if (!Character.isDigit(a.charAt(0))){
             return false;
         }
         else{
             return true;
         }
-    }
+    }*/
 
 
     //括号系列
@@ -102,13 +118,13 @@ public class Input_Logic {
      * @Param [a]
      * @return boolean
      **/
-    public static boolean Brackets_empty(String a) {
+    public  boolean Brackets_empty(String a) {
         String b=a.substring(a.length()-1,a.length());
         if(b.equals("(")){
-            return false;
+            return true;
         }
         else{
-            return true;
+            return false;
         }
     }
 
@@ -119,13 +135,15 @@ public class Input_Logic {
      * @Param [a]
      * @return boolean
      **/
-    public static boolean Brackets_match(boolean a){
+    //此方法在封装时候使用，这里不使用
+  /*  public boolean Brackets_match(boolean a){
         if(a==true){
             return true;
         }else{
             return false;
         }
-    }
+    }*/
+
 
     /**
      * @Author sun
@@ -134,8 +152,8 @@ public class Input_Logic {
      * @Param [a]
      * @return java.lang.String
      **/
-
-    public static String Brackets_supplement(String a){
+/*  //这个方法本次不使用
+    public String Brackets_supplement(String a){
 
         String c="";
         if(a.equals(".")||a.equals("(")||a.equals(")")){
@@ -145,7 +163,7 @@ public class Input_Logic {
         }
         return c;
     }
-
+*/
     /**
      * @Author sun
      * @Description 左括号后面是符号的化只能跟数字
@@ -153,10 +171,50 @@ public class Input_Logic {
      * @Param
      * @return
     **/
-    public static boolean Brackets_left_behind(String a){
-        if(a.equals("-")){
+    public  boolean Brackets_left_behind(String a){
+        /*String str=a.substring(0,1);
+        String st=a.substring(1,2);
+        if(str.equals("(")){
+            if(st.equals("+")||st.equals("*")||st.equals("/")){
+                return false;
+            }else{
+                return true;
+            }
+
+        }else{
+            return true;
+        }*/
+        if(a.equals("(")){
+            return false;
+        }
+        else{
             return true;
         }
-        return false;
+
+    }
+
+    /**
+     * @Author sun
+     * @Description 左括号前面是符号规定判定
+     * @Date 14:23 2020/9/20
+     * @Param
+     * @return
+     **/
+    public  boolean Brackets_left_front(String a){
+
+        if(a.equals("+")||a.equals("-")||a.equals("*")||a.equals("/")||a.equals("")){
+            return true;
+        }else{
+           return false;
+        }
+    }
+
+    public  boolean Brackets_right_front(String a){
+
+        if(a.equals("+")||a.equals("-")||a.equals("*")||a.equals("/")){
+            return false;
+        }else{
+            return true;
+        }
     }
 }
