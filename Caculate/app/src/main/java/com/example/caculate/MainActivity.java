@@ -71,6 +71,16 @@ public class MainActivity extends AppCompatActivity {
                                 Intent intent=new Intent(MainActivity.this,Main2Activity.class);
                                 startActivity(intent);
                                 break;
+                        case R.id.SizeTra:
+                                Log.v(TAG,"点击Size");
+                                Intent intent1=new Intent(MainActivity.this,Main3Activity.class);
+                                startActivity(intent1);
+                                break;
+                        case R.id.SchalTra:
+                                Log.v(TAG,"点击Schal");
+                                Intent intent2=new Intent(MainActivity.this,Main4Activity.class);
+                                startActivity(intent2);
+                                break;
 
                 }
                 return true;
