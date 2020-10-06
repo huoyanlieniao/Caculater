@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		tools:context=".Main2Activity">
+	
+	
+	<EditText
+			android:id="@+id/Long_Input"
+			android:layout_width="0dp"
+			android:layout_height="50dp"
+			android:hint="Please_Input"
+			android:textSize="25sp"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toLeftOf="@+id/Long_Spinner"
+			android:layout_marginTop="48dp"/>
+	
+	<Spinner
+			android:id="@+id/Long_Spinner"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			app:layout_constraintLeft_toRightOf="@+id/Long_Input"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="@id/Long_Input"
+			app:layout_constraintBottom_toBottomOf="@id/Long_Input"
+			app:layout_constraintVertical_bias="1.0"/>
+	
+	
+	<TextView
+			android:id="@+id/wait_mm"
+			android:layout_width="0dp"
+			android:layout_height="50dp"
+			android:textSize="25sp"
+			android:gravity="center"
+			android:background="@android:color/holo_blue_light"
+			app:layout_constraintTop_toBottomOf="@+id/Long_Input"
+			app:layout_constraintRight_toLeftOf="@id/mm"
+			app:layout_constraintLeft_toLeftOf="parent"
+			android:layout_marginTop="52dp"/>
+	
+	<TextView
+			android:id="@+id/cm"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:hint="cm"
+			android:textSize="25sp"
+			android:gravity="center"
+			app:layout_constraintLeft_toRightOf="@+id/wait_cm"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="@id/wait_cm"
+			app:layout_constraintBottom_toBottomOf="@id/wait_cm"
+			app:layout_constraintVertical_bias="0.0"/>
+	
+	<TextView
+			android:id="@+id/wait_dm"
+			android:layout_width="0dp"
+			android:layout_height="50dp"
+			android:textSize="25sp"
+			android:gravity="center"
+			android:background="@android:color/holo_green_light"
+			app:layout_constraintTop_toBottomOf="@+id/Long_Input"
+			app:layout_constraintRight_toLeftOf="@id/dm"
+			app:layout_constraintLeft_toLeftOf="parent"
+			android:layout_marginTop="232dp"/>
+	
+	<TextView
+			android:id="@+id/dm"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:hint="dm"
+			android:textSize="25sp"
+			android:gravity="center"
+			app:layout_constraintLeft_toRightOf="@+id/wait_dm"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="@id/wait_dm"
+			app:layout_constraintBottom_toBottomOf="@id/wait_dm"
+			app:layout_constraintVertical_bias="0.0"/>
+	
+	<TextView
+			android:id="@+id/wait_m"
+			android:layout_width="0dp"
+			android:layout_height="50dp"
+			android:textSize="25sp"
+			android:gravity="center"
+			android:background="@android:color/holo_orange_light"
+			app:layout_constraintTop_toBottomOf="@+id/Long_Input"
+			app:layout_constraintRight_toLeftOf="@id/m"
+			app:layout_constraintLeft_toLeftOf="parent"
+			android:layout_marginTop="316dp"/>
+	
+	<TextView
+			android:id="@+id/m"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:hint="m"
+			android:textSize="25sp"
+			android:gravity="center"
+			app:layout_constraintLeft_toRightOf="@+id/wait_m"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="@id/wait_m"
+			app:layout_constraintBottom_toBottomOf="@id/wait_m"
+			app:layout_constraintVertical_bias="0.0"/>
+	
+	<TextView
+			android:id="@+id/wait_km"
+			android:layout_width="0dp"
+			android:layout_height="50dp"
+			android:textSize="25sp"
+			android:gravity="center"
+			android:background="@android:color/holo_red_light"
+			app:layout_constraintTop_toBottomOf="@+id/Long_Input"
+			app:layout_constraintRight_toLeftOf="@id/km"
+			app:layout_constraintLeft_toLeftOf="parent"
+			android:layout_marginTop="400dp"/>
+	
+	<TextView
+			android:id="@+id/km"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:hint="km"
+			android:textSize="25sp"
+			android:gravity="center"
+			app:layout_constraintLeft_toRightOf="@+id/wait_km"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="@id/wait_km"
+			app:layout_constraintBottom_toBottomOf="@id/wait_km"
+			app:layout_constraintVertical_bias="0.0"/>
+	
+	<TextView
+			android:id="@+id/mm"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:hint="mm"
+			android:textSize="25sp"
+			android:gravity="center"
+			app:layout_constraintLeft_toRightOf="@+id/wait_mm"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="@id/wait_mm"
+			app:layout_constraintBottom_toBottomOf="@id/wait_mm"
+			app:layout_constraintVertical_bias="0.0"/>
+	
+	<TextView
+			android:id="@+id/wait_cm"
+			android:layout_width="0dp"
+			android:layout_height="50dp"
+			android:textSize="25sp"
+			android:gravity="center"
+			android:background="@android:color/holo_purple"
+			app:layout_constraintTop_toBottomOf="@+id/Long_Input"
+			app:layout_constraintRight_toLeftOf="@id/cm"
+			app:layout_constraintLeft_toLeftOf="parent"
+			android:layout_marginTop="136dp"/>
+	
+	<Button
+			android:id="@+id/Long_back"
+			android:text="返回"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="Long_back_click"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintHorizontal_bias="0.5"
+			
+			
+		/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

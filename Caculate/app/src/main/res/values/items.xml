@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="Long_Items">
+		<item>mm</item>
+		<item>cm</item>
+		<item>dm</item>
+		<item>m</item>
+		<item>km</item>
+	</string-array>
+	
+	<string-array name="Volume_Items">
+		<item>mm^3</item>
+		<item>cm^3</item>
+		<item>dm^3</item>
+		<item>m^3</item>
+	</string-array>
+	
+	<string-array name="Schal_Items">
+		<item>2进制</item>
+		<item>4进制</item>
+		<item>8进制</item>
+		<item>10进制</item>
+		<item>16进制</item>
+	</string-array>
+</resources>
